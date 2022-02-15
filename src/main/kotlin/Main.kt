@@ -1,5 +1,7 @@
-fun main(args: Array<String>) {
-    var nama= "arif budhi"
-    var nama= "yasha"
-    println("Hello")
+fun main() {
+    val name = "Arif Budhi"
+
+    print("Hello my name is ")
+    println(name)
+    print(if (true) "Always true" else "Always false")
 }
